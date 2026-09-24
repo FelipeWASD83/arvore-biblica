@@ -1,0 +1,754 @@
+{
+  "_leia": "Idades e reinados que o próprio texto bíblico dá, digitados à mão com o versículo de onde saíram (numeração da NTLH/Almeida, texto hebraico massorético). 'gerou': idade do pai quando o filho nasceu; 'morreu': idade ao morrer; 'reinado': idade ao começar a reinar e duração. A linha do tempo de Gn 5 e 11 é calculada a partir de 'gerou' e 'morreu'. Chave = chave do TIPNR (campo k de pessoas.json).",
+  "Adam@Gen.2.19-Jud": {
+    "gerou": [
+      {
+        "filho": "Seth@Gen.4.25-Luk",
+        "idade": 130,
+        "ref": "Gn 5.3"
+      }
+    ],
+    "morreu": {
+      "idade": 930,
+      "ref": "Gn 5.5"
+    }
+  },
+  "Seth@Gen.4.25-Luk": {
+    "gerou": [
+      {
+        "filho": "Enosh@Gen.4.26-Luk",
+        "idade": 105,
+        "ref": "Gn 5.6"
+      }
+    ],
+    "morreu": {
+      "idade": 912,
+      "ref": "Gn 5.8"
+    }
+  },
+  "Enosh@Gen.4.26-Luk": {
+    "gerou": [
+      {
+        "filho": "Kenan@Gen.5.9-Luk",
+        "idade": 90,
+        "ref": "Gn 5.9"
+      }
+    ],
+    "morreu": {
+      "idade": 905,
+      "ref": "Gn 5.11"
+    }
+  },
+  "Kenan@Gen.5.9-Luk": {
+    "gerou": [
+      {
+        "filho": "Mahalalel@Gen.5.12-Luk",
+        "idade": 70,
+        "ref": "Gn 5.12"
+      }
+    ],
+    "morreu": {
+      "idade": 910,
+      "ref": "Gn 5.14"
+    }
+  },
+  "Mahalalel@Gen.5.12-Luk": {
+    "gerou": [
+      {
+        "filho": "Jared@Gen.5.15-Luk",
+        "idade": 65,
+        "ref": "Gn 5.15"
+      }
+    ],
+    "morreu": {
+      "idade": 895,
+      "ref": "Gn 5.17"
+    }
+  },
+  "Jared@Gen.5.15-Luk": {
+    "gerou": [
+      {
+        "filho": "Enoch@Gen.5.18-Jud",
+        "idade": 162,
+        "ref": "Gn 5.18"
+      }
+    ],
+    "morreu": {
+      "idade": 962,
+      "ref": "Gn 5.20"
+    }
+  },
+  "Enoch@Gen.5.18-Jud": {
+    "gerou": [
+      {
+        "filho": "Methuselah@Gen.5.21-Luk",
+        "idade": 65,
+        "ref": "Gn 5.21"
+      }
+    ],
+    "morreu": {
+      "idade": 365,
+      "ref": "Gn 5.23-24",
+      "nota": "Não morreu: Deus o levou."
+    }
+  },
+  "Methuselah@Gen.5.21-Luk": {
+    "gerou": [
+      {
+        "filho": "Lamech@Gen.5.25-Luk",
+        "idade": 187,
+        "ref": "Gn 5.25"
+      }
+    ],
+    "morreu": {
+      "idade": 969,
+      "ref": "Gn 5.27",
+      "nota": "A pessoa que mais viveu na Bíblia. Pela conta de Gn 5, morreu no ano do dilúvio."
+    }
+  },
+  "Lamech@Gen.5.25-Luk": {
+    "gerou": [
+      {
+        "filho": "Noah@Gen.5.29-2Pe",
+        "idade": 182,
+        "ref": "Gn 5.28-29"
+      }
+    ],
+    "morreu": {
+      "idade": 777,
+      "ref": "Gn 5.31"
+    }
+  },
+  "Noah@Gen.5.29-2Pe": {
+    "gerou": [
+      {
+        "filho": "Shem@Gen.5.32-Luk",
+        "idade": 502,
+        "ref": "Gn 5.32; 11.10",
+        "nota": "Gn 5.32 diz que Noé tinha 500 anos quando teve os três filhos; Gn 11.10 põe Sem com 100 anos dois anos depois do dilúvio, o que dá 502."
+      }
+    ],
+    "morreu": {
+      "idade": 950,
+      "ref": "Gn 9.29"
+    },
+    "eventos": [
+      {
+        "idade": 600,
+        "texto": "Dilúvio",
+        "ref": "Gn 7.6"
+      }
+    ]
+  },
+  "Shem@Gen.5.32-Luk": {
+    "gerou": [
+      {
+        "filho": "Arpachshad@Gen.10.22-Luk",
+        "idade": 100,
+        "ref": "Gn 11.10"
+      }
+    ],
+    "morreu": {
+      "idade": 600,
+      "ref": "Gn 11.10-11"
+    }
+  },
+  "Arpachshad@Gen.10.22-Luk": {
+    "gerou": [
+      {
+        "filho": "Shelah@Gen.10.24-Luk",
+        "idade": 35,
+        "ref": "Gn 11.12"
+      }
+    ],
+    "morreu": {
+      "idade": 438,
+      "ref": "Gn 11.12-13"
+    }
+  },
+  "Shelah@Gen.10.24-Luk": {
+    "gerou": [
+      {
+        "filho": "Eber@Gen.10.21-Luk",
+        "idade": 30,
+        "ref": "Gn 11.14"
+      }
+    ],
+    "morreu": {
+      "idade": 433,
+      "ref": "Gn 11.14-15"
+    }
+  },
+  "Eber@Gen.10.21-Luk": {
+    "gerou": [
+      {
+        "filho": "Peleg@Gen.10.25-Luk",
+        "idade": 34,
+        "ref": "Gn 11.16"
+      }
+    ],
+    "morreu": {
+      "idade": 464,
+      "ref": "Gn 11.16-17"
+    }
+  },
+  "Peleg@Gen.10.25-Luk": {
+    "gerou": [
+      {
+        "filho": "Reu@Gen.11.18-Luk",
+        "idade": 30,
+        "ref": "Gn 11.18"
+      }
+    ],
+    "morreu": {
+      "idade": 239,
+      "ref": "Gn 11.18-19"
+    }
+  },
+  "Reu@Gen.11.18-Luk": {
+    "gerou": [
+      {
+        "filho": "Serug@Gen.11.20-Luk",
+        "idade": 32,
+        "ref": "Gn 11.20"
+      }
+    ],
+    "morreu": {
+      "idade": 239,
+      "ref": "Gn 11.20-21"
+    }
+  },
+  "Serug@Gen.11.20-Luk": {
+    "gerou": [
+      {
+        "filho": "Nahor@Gen.11.22-Luk",
+        "idade": 30,
+        "ref": "Gn 11.22"
+      }
+    ],
+    "morreu": {
+      "idade": 230,
+      "ref": "Gn 11.22-23"
+    }
+  },
+  "Nahor@Gen.11.22-Luk": {
+    "gerou": [
+      {
+        "filho": "Terah@Gen.11.24-Luk",
+        "idade": 29,
+        "ref": "Gn 11.24"
+      }
+    ],
+    "morreu": {
+      "idade": 148,
+      "ref": "Gn 11.24-25"
+    }
+  },
+  "Terah@Gen.11.24-Luk": {
+    "gerou": [
+      {
+        "filho": "Abraham@Gen.11.26-1Pe",
+        "idade": 70,
+        "ref": "Gn 11.26",
+        "nota": "Gn 11.26 diz que Terá tinha 70 anos quando teve os três filhos. Como Abraão saiu de Harã com 75 depois da morte de Terá aos 205 (Gn 11.32; 12.4; At 7.4), muitos leem que Abraão nasceu quando Terá tinha 130."
+      }
+    ],
+    "morreu": {
+      "idade": 205,
+      "ref": "Gn 11.32"
+    }
+  },
+  "Abraham@Gen.11.26-1Pe": {
+    "gerou": [
+      {
+        "filho": "Ishmael@Gen.16.11-Psa",
+        "idade": 86,
+        "ref": "Gn 16.16"
+      },
+      {
+        "filho": "Isaac@Gen.17.19-Jas",
+        "idade": 100,
+        "ref": "Gn 21.5"
+      }
+    ],
+    "morreu": {
+      "idade": 175,
+      "ref": "Gn 25.7"
+    },
+    "eventos": [
+      {
+        "idade": 75,
+        "texto": "Sai de Harã rumo a Canaã",
+        "ref": "Gn 12.4"
+      },
+      {
+        "idade": 99,
+        "texto": "Aliança da circuncisão; o nome muda de Abrão para Abraão",
+        "ref": "Gn 17.1-5, 24"
+      }
+    ]
+  },
+  "Sarah@Gen.11.29-1Pe": {
+    "gerou": [
+      {
+        "filho": "Isaac@Gen.17.19-Jas",
+        "idade": 90,
+        "ref": "Gn 17.17"
+      }
+    ],
+    "morreu": {
+      "idade": 127,
+      "ref": "Gn 23.1"
+    }
+  },
+  "Ishmael@Gen.16.11-Psa": {
+    "morreu": {
+      "idade": 137,
+      "ref": "Gn 25.17"
+    }
+  },
+  "Isaac@Gen.17.19-Jas": {
+    "gerou": [
+      {
+        "filho": "Israel@Gen.25.26-Rev",
+        "idade": 60,
+        "ref": "Gn 25.26",
+        "nota": "Jacó e Esaú são gêmeos."
+      }
+    ],
+    "morreu": {
+      "idade": 180,
+      "ref": "Gn 35.28"
+    },
+    "eventos": [
+      {
+        "idade": 40,
+        "texto": "Casa com Rebeca",
+        "ref": "Gn 25.20"
+      }
+    ]
+  },
+  "Israel@Gen.25.26-Rev": {
+    "morreu": {
+      "idade": 147,
+      "ref": "Gn 47.28"
+    },
+    "eventos": [
+      {
+        "idade": 130,
+        "texto": "Chega ao Egito",
+        "ref": "Gn 47.9"
+      }
+    ],
+    "gerou": [
+      {
+        "filho": "Joseph@Gen.30.24-Rev",
+        "idade": 91,
+        "ref": "Gn 41.46; 45.6; 47.9",
+        "nota": "Conta, não número escrito: José tinha 30 anos ao começar a governar (Gn 41.46), mais 7 de fartura e 2 de fome (Gn 45.6) = 39 quando Jacó chegou ao Egito com 130 (Gn 47.9). Logo Jacó tinha 91 quando José nasceu."
+      }
+    ]
+  },
+  "Joseph@Gen.30.24-Rev": {
+    "morreu": {
+      "idade": 110,
+      "ref": "Gn 50.26"
+    },
+    "eventos": [
+      {
+        "idade": 17,
+        "texto": "Vendido pelos irmãos",
+        "ref": "Gn 37.2"
+      },
+      {
+        "idade": 30,
+        "texto": "Passa a governar o Egito",
+        "ref": "Gn 41.46"
+      }
+    ]
+  },
+  "Levi@Gen.29.34-Rev": {
+    "morreu": {
+      "idade": 137,
+      "ref": "Êx 6.16"
+    }
+  },
+  "Kohath@Gen.46.11-2Ch": {
+    "morreu": {
+      "idade": 133,
+      "ref": "Êx 6.18"
+    }
+  },
+  "Amram@Exo.6.18-1Ch": {
+    "morreu": {
+      "idade": 137,
+      "ref": "Êx 6.20"
+    }
+  },
+  "Aaron@Exo.4.14-Heb": {
+    "morreu": {
+      "idade": 123,
+      "ref": "Nm 33.39"
+    },
+    "eventos": [
+      {
+        "idade": 83,
+        "texto": "Fala com o faraó ao lado de Moisés",
+        "ref": "Êx 7.7"
+      }
+    ]
+  },
+  "Moses@Exo.2.10-Rev": {
+    "morreu": {
+      "idade": 120,
+      "ref": "Dt 34.7"
+    },
+    "eventos": [
+      {
+        "idade": 80,
+        "texto": "Fala com o faraó",
+        "ref": "Êx 7.7"
+      }
+    ]
+  },
+  "Joshua@Exo.17.9-Heb": {
+    "morreu": {
+      "idade": 110,
+      "ref": "Js 24.29"
+    }
+  },
+  "Caleb@Num.13.6-1Ch": {
+    "eventos": [
+      {
+        "idade": 40,
+        "texto": "Enviado como espião a Canaã",
+        "ref": "Js 14.7"
+      },
+      {
+        "idade": 85,
+        "texto": "Pede Hebrom como herança",
+        "ref": "Js 14.10"
+      }
+    ]
+  },
+  "Eli@1Sa.1.3-1Ki": {
+    "morreu": {
+      "idade": 98,
+      "ref": "1Sm 4.15-18"
+    }
+  },
+  "Job@Job.1.1-Jas": {
+    "eventos": [
+      {
+        "texto": "Viveu mais 140 anos depois de ser restaurado",
+        "ref": "Jó 42.16"
+      }
+    ]
+  },
+  "David@Rut.4.17-Rev": {
+    "reinado": {
+      "inicio": 30,
+      "anos": "40 anos (7 e meio em Hebrom, 33 em Jerusalém)",
+      "reino": "Israel (reino unido)",
+      "ref": "2Sm 5.4-5"
+    }
+  },
+  "Solomon@2Sa.5.14-Act": {
+    "reinado": {
+      "anos": "40 anos",
+      "reino": "Israel (reino unido)",
+      "ref": "1Rs 11.42"
+    }
+  },
+  "Rehoboam@1Ki.11.43-Mat": {
+    "reinado": {
+      "inicio": 41,
+      "anos": "17 anos",
+      "reino": "Judá",
+      "ref": "1Rs 14.21"
+    }
+  },
+  "Abijah@1Ki.14.31-Mat": {
+    "reinado": {
+      "anos": "3 anos",
+      "reino": "Judá",
+      "ref": "1Rs 15.1-2"
+    }
+  },
+  "Asa@1Ki.15.8-Mat": {
+    "reinado": {
+      "anos": "41 anos",
+      "reino": "Judá",
+      "ref": "1Rs 15.9-10"
+    }
+  },
+  "Jehoshaphat@1Ki.15.24-Mat": {
+    "reinado": {
+      "inicio": 35,
+      "anos": "25 anos",
+      "reino": "Judá",
+      "ref": "1Rs 22.42"
+    }
+  },
+  "Jehoram@1Ki.22.50-Mat": {
+    "reinado": {
+      "inicio": 32,
+      "anos": "8 anos",
+      "reino": "Judá",
+      "ref": "2Rs 8.17"
+    }
+  },
+  "Ahaziah@2Ki.8.24-2Ch": {
+    "reinado": {
+      "inicio": 22,
+      "anos": "1 ano",
+      "reino": "Judá",
+      "ref": "2Rs 8.26"
+    }
+  },
+  "Athaliah@2Ki.8.26-2Ch": {
+    "reinado": {
+      "anos": "6 anos",
+      "reino": "Judá",
+      "ref": "2Rs 11.3"
+    }
+  },
+  "Joash@2Ki.11.2-2Ch": {
+    "reinado": {
+      "inicio": 7,
+      "anos": "40 anos",
+      "reino": "Judá",
+      "ref": "2Rs 11.21; 12.1"
+    }
+  },
+  "Amaziah@2Ki.12.21-2Ch": {
+    "reinado": {
+      "inicio": 25,
+      "anos": "29 anos",
+      "reino": "Judá",
+      "ref": "2Rs 14.2"
+    }
+  },
+  "Uzziah@2Ki.14.21-Mat": {
+    "reinado": {
+      "inicio": 16,
+      "anos": "52 anos",
+      "reino": "Judá",
+      "ref": "2Rs 15.2"
+    }
+  },
+  "Jotham@2Ki.15.5-Mat": {
+    "reinado": {
+      "inicio": 25,
+      "anos": "16 anos",
+      "reino": "Judá",
+      "ref": "2Rs 15.33"
+    }
+  },
+  "Ahaz@2Ki.15.38-Mat": {
+    "reinado": {
+      "inicio": 20,
+      "anos": "16 anos",
+      "reino": "Judá",
+      "ref": "2Rs 16.2"
+    }
+  },
+  "Hezekiah@2Ki.16.20-Mat": {
+    "reinado": {
+      "inicio": 25,
+      "anos": "29 anos",
+      "reino": "Judá",
+      "ref": "2Rs 18.2"
+    }
+  },
+  "Manasseh@2Ki.20.21-Mat": {
+    "reinado": {
+      "inicio": 12,
+      "anos": "55 anos",
+      "reino": "Judá",
+      "ref": "2Rs 21.1"
+    }
+  },
+  "Amon@2Ki.21.18-Mat": {
+    "reinado": {
+      "inicio": 22,
+      "anos": "2 anos",
+      "reino": "Judá",
+      "ref": "2Rs 21.19"
+    }
+  },
+  "Josiah@1Ki.13.2-Mat": {
+    "reinado": {
+      "inicio": 8,
+      "anos": "31 anos",
+      "reino": "Judá",
+      "ref": "2Rs 22.1"
+    }
+  },
+  "Jehoahaz@2Ki.23.30-2Ch": {
+    "reinado": {
+      "inicio": 23,
+      "anos": "3 meses",
+      "reino": "Judá",
+      "ref": "2Rs 23.31"
+    }
+  },
+  "Jehoiakim@2Ki.23.34-Dan": {
+    "reinado": {
+      "inicio": 25,
+      "anos": "11 anos",
+      "reino": "Judá",
+      "ref": "2Rs 23.36"
+    }
+  },
+  "Jehoiachin@2Ki.24.6-Mat": {
+    "reinado": {
+      "inicio": 18,
+      "anos": "3 meses",
+      "reino": "Judá",
+      "ref": "2Rs 24.8",
+      "nota": "2Cr 36.9 dá 8 anos de idade."
+    }
+  },
+  "Zedekiah@2Ki.24.17-Jer": {
+    "reinado": {
+      "inicio": 21,
+      "anos": "11 anos",
+      "reino": "Judá",
+      "ref": "2Rs 24.18"
+    }
+  },
+  "Jeroboam@1Ki.11.26-2Ch": {
+    "reinado": {
+      "anos": "22 anos",
+      "reino": "Israel (norte)",
+      "ref": "1Rs 14.20"
+    }
+  },
+  "Nadab@1Ki.14.20-": {
+    "reinado": {
+      "anos": "2 anos",
+      "reino": "Israel (norte)",
+      "ref": "1Rs 15.25"
+    }
+  },
+  "Baasha@1Ki.15.16-Jer": {
+    "reinado": {
+      "anos": "24 anos",
+      "reino": "Israel (norte)",
+      "ref": "1Rs 15.33"
+    }
+  },
+  "Elah@1Ki.16.6-": {
+    "reinado": {
+      "anos": "2 anos",
+      "reino": "Israel (norte)",
+      "ref": "1Rs 16.8"
+    }
+  },
+  "Zimri@1Ki.16.9-2Ki": {
+    "reinado": {
+      "anos": "7 dias",
+      "reino": "Israel (norte)",
+      "ref": "1Rs 16.15"
+    }
+  },
+  "Omri@1Ki.16.16-Mic": {
+    "reinado": {
+      "anos": "12 anos",
+      "reino": "Israel (norte)",
+      "ref": "1Rs 16.23"
+    }
+  },
+  "Ahab@1Ki.16.28-Mic": {
+    "reinado": {
+      "anos": "22 anos",
+      "reino": "Israel (norte)",
+      "ref": "1Rs 16.29"
+    }
+  },
+  "Ahaziah@1Ki.22.40-2Ch": {
+    "reinado": {
+      "anos": "2 anos",
+      "reino": "Israel (norte)",
+      "ref": "1Rs 22.51"
+    }
+  },
+  "Joram@2Ki.1.17-2Ch": {
+    "reinado": {
+      "anos": "12 anos",
+      "reino": "Israel (norte)",
+      "ref": "2Rs 3.1"
+    }
+  },
+  "Jehu@1Ki.19.16-Hos": {
+    "reinado": {
+      "anos": "28 anos",
+      "reino": "Israel (norte)",
+      "ref": "2Rs 10.36"
+    }
+  },
+  "Jehoahaz@2Ki.10.35-2Ch": {
+    "reinado": {
+      "anos": "17 anos",
+      "reino": "Israel (norte)",
+      "ref": "2Rs 13.1"
+    }
+  },
+  "Joash@2Ki.13.9-Amo": {
+    "reinado": {
+      "anos": "16 anos",
+      "reino": "Israel (norte)",
+      "ref": "2Rs 13.10"
+    }
+  },
+  "Jeroboam@2Ki.13.13-Amo": {
+    "reinado": {
+      "anos": "41 anos",
+      "reino": "Israel (norte)",
+      "ref": "2Rs 14.23"
+    }
+  },
+  "Zechariah@2Ki.14.29-": {
+    "reinado": {
+      "anos": "6 meses",
+      "reino": "Israel (norte)",
+      "ref": "2Rs 15.8"
+    }
+  },
+  "Shallum@2Ki.15.10-": {
+    "reinado": {
+      "anos": "1 mês",
+      "reino": "Israel (norte)",
+      "ref": "2Rs 15.13"
+    }
+  },
+  "Menahem@2Ki.15.14-": {
+    "reinado": {
+      "anos": "10 anos",
+      "reino": "Israel (norte)",
+      "ref": "2Rs 15.17"
+    }
+  },
+  "Pekahiah@2Ki.15.22-": {
+    "reinado": {
+      "anos": "2 anos",
+      "reino": "Israel (norte)",
+      "ref": "2Rs 15.23"
+    }
+  },
+  "Pekah@2Ki.15.25-Isa": {
+    "reinado": {
+      "anos": "20 anos",
+      "reino": "Israel (norte)",
+      "ref": "2Rs 15.27"
+    }
+  },
+  "Hoshea@2Ki.15.30-": {
+    "reinado": {
+      "anos": "9 anos",
+      "reino": "Israel (norte)",
+      "ref": "2Rs 17.1"
+    }
+  }
+}

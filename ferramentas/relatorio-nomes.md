@@ -1,0 +1,148 @@
+# Relatório dos nomes em português
+
+Gerado em 2026-09-24 por `construir_dados.py`. Serve para conferir o casamento
+automático dos nomes; corrigir em `nomes_manuais.json` (`dicas` ou `fixos`).
+
+- Pessoas: 3130
+- Sem nome na NTLH (usa outra tradução): 107
+- Sem nome em nenhuma tradução nem descrição: 0
+- Ligações para fora da lista de pessoas (lugar, grupo excluído): {'f': 19}
+- Ciclos pai/filho desfeitos: 0
+- Papéis sem tradução: {}
+
+## Baixa confiança na NTLH (menos de 60% dos votos)
+
+- `Adbeel@Gen.25.13-1Ch` → **Adbeel** (0.55) {'Adbeel': 1.08, 'Abdeel': 0.88}
+- `Akan@Gen.36.27-1Ch` → **Jaacã** (0.51) {'Jaacã': 0.9688888888888888, 'Acã': 0.937142857142857}
+- `Archites@Jos.16.2-1Ch` → **Arquitas** (0.51) {'arquitas': 1.6984615384615385, 'arquita': 0.9133333333333333, 'Aitofel': 0.6953846153846154}
+- `Ashhur@1Ch.2.24-` → **Asur** (0.57) {'Asur': 1.08, 'Azur': 0.83}
+- `Avvim@Deu.2.23-Jos` → **Avim** (0.55) {'Avim': 1.08, 'avins': 0.88}
+- `Habaiah@Ezr.2.61-Neh` → **Hobaías** (0.5) {'Hobaías': 0.989090909090909, 'Habaías': 0.989090909090909}
+- `Hakkoz@Ezr.2.61-Neh` → **Hacoz** (0.5) {'Hacoz': 1.08, 'Coz': 1.08}
+- `Hassenuah@1Ch.9.7-Neh` → **Hassenuá** (0.35) {'Hassenuá': 1.08, 'Hassenaá': 1.08, 'Senua': 0.9090909090909091}
+- `Hebrews@Gen.14.13-Heb` → **Hebreus** (0.59) {'hebreus': 11.30181818181818, 'hebreu': 7.92}
+- `Heleb@2Sa.23.29-1Ch` → **Heldai** (0.5) {'Heldai': 1.08, 'Helede': 1.08}
+- `Helez@2Sa.23.26-1Ch` → **Heles** (0.5) {'Heles': 0.83, 'Helede': 0.83}
+- `Iddo@Neh.12.4-` → **Ido** (0.57) {'Ido': 1.08, 'Amariá': 0.8072727272727273}
+- `Ira@2Sa.23.26-1Ch` → **Ilai** (0.5) {'Ilai': 0.6514285714285714, 'Isar': 0.6514285714285714}
+- `Ithrites@2Sa.23.38-1Ch` → **Itritas** (0.56) {'itritas': 0.8492307692307692, 'Itai': 0.6799999999999999}
+- `Jozacar@2Ki.12.21-2Ch` → **Jozacar** (0.5) {'Jozacar': 1.08, 'Jozabade': 1.08}
+- `Lud@Gen.10.22-Ezk` → **Lídia** (0.58) {'Lídia': 4.5, 'Lude': 3.24}
+- `Meunites@1Ch.4.41-2Ch` → **Meunitas** (0.5) {'meunitas': 0.955, 'amonitas': 0.955}
+- `Ram@Rut.4.19-Luk` → **Rão** (0.57) {'Rão': 2.2399999999999998, 'Arão': 1.66}
+- `Sheba@Gen.25.3-1Ch` → **Seba** (0.57) {'Seba': 1.08, 'Sabá': 0.83}
+- `Temah@Ezr.2.53-Neh` → **Temá** (0.5) {'Temá': 1.08, 'Tama': 1.08}
+- `Zaccur@Ezr.8.14` → **Zabude** (0.59) {'Zabude': 1.08, 'Zatu': 0.7466666666666666}
+
+## Sem nome na NTLH
+
+- `Abiah@1Ch.2.24` → Abia
+- `Adino@2Sa.23.8` → Adino
+- `Ahasbai@2Sa.23.34` → Aasbai
+- `Aher@1Ch.7.12` → Aer
+- `Ahijah@1Ch.26.20` → Aías
+- `Argob@2Ki.15.25` → Argobe
+- `Arieh@2Ki.15.25` → Arié
+- `Ariel@2Sa.23.20-1Ch` → Heróis
+- `Asen@Neh.7.24` → —
+- `Bani@2Sa.23.36` → Bani
+- `Bani@Ezr.10.38` → Bani
+- `Ben@1Ch.15.18` → Bene
+- `Beno@1Ch.24.26-` → Beno
+- `Bithiah@1Ch.4.18` → Bitia
+- `Buzi@Ezk.1.3` → Buzi
+- `Caphtorim@Gen.10.14-1Ch` → Caftorim
+- `Dehavites@Ezr.4.9` → Deavitas
+- `Eliam@2Sa.23.34` → Eliã
+- `Elika@2Sa.23.25` → Elica
+- `Eliphelet@2Sa.23.34` → Elifelete
+- `Eznites@2Sa.23.8` → Eznita
+- `Haggedolim@Neh.11.14` → Gedolim
+- `Hammath@1Ch.2.55` → Hamate
+- `Hammelech@Jer.36.26-` → Hameleque
+- `Horonites@Neh.2.10-` → Horonita
+- `Iddo@1Ch.27.21` → Ido
+- `Igal@2Sa.23.36` → Igal
+- `Ir@1Ch.7.12` → Ir
+- `Ira@2Sa.20.26` → Ira
+- `Isshijah@Ezr.10.31` → Issias
+- `Ithiel@Pro.30.1` → Itiel
+- `Jashar@Jos.10.13-2Sa` → Jasar
+- `Jeroham@1Ch.8.27` → Jeroão
+- `Jerusalem_wives@2Sa.5.13` → —
+- `Jonathan@Jer.40.8` → Jônatas
+- `Kish@2Ch.29.12` → Quis
+- `Kittim@Gen.10.4-1Ch` → Quitim
+- `Nero@Php.4.22-2Ti` → César
+- `Paarai@2Sa.23.35` → Paarai
+- `Pharaoh@1Ch.4.18` → Faraó
+- `Pharaoh@Jer.25.19` → Faraó
+- `Put@Gen.10.6-1Ch` → Pute
+- `Queen_of_Sheba@1Ki.10.1-Luk` → —
+- `Rab-mag@Jer.39.3-` → Rabe-Mague
+- `Rab-saris@2Ki.18.17` → Rabe-Saris
+- `Rab-saris@Jer.39.3-` → Rabe-Saris
+- `Rabshakeh@2Ki.18.17-Isa` → Rabsaqué
+- `Rapha@2Sa.21.16-1Ch` → Rafa
+- `Scythians@Col.3.11` → Cita
+- `Shallum@1Ch.3.15` → Salum
+- `Shiloh@Gen.49.10` → Siló
+- `Shimei@1Ch.8.21` → Simei
+- `Suah@1Ch.7.36` → Suá
+- `Tarshish@Gen.10.4-1Ch` → Társis
+- `Tartan@2Ki.18.17-Isa` → Tartã
+- `Ucal@Pro.30.1` → Ucal
+- `Unnamed#1@1Ki.2.27` → —
+- `Unnamed#1@Mat.1.15` → —
+- `Unnamed#2@1Ki.2.27` → —
+- `Unnamed#2@Mat.1.15` → —
+- `Unnamed#3@1Ki.2.27` → —
+- `Unnamed#3@Mat.1.15` → —
+- `Unnamed#4@1Ki.2.27` → —
+- `Unnamed#4@Mat.1.15` → —
+- `Unnamed#5@Mat.1.15` → —
+- `Unnamed#6@Mat.1.15` → —
+- `Unnamed#7@Mat.1.15` → —
+- `Unnamed#8@Mat.1.15` → —
+- `Unnamed#9@Mat.1.15` → —
+- `a_wife_of_Ezekiel@Ezk.24.18` → —
+- `a_wife_of_Hezron@1Ch.2.9` → —
+- `a_wife_of_Jerahmeel@1Ch.2.26` → —
+- `a_wife_of_Josiah@1Ch.3.15` → —
+- `a_wife_of_Lot@Gen.19.15-` → —
+- `a_wife_of_Peter@Mat.8.14-1Co` → —
+- `a_wife_of_Simeon@Gen.46.10` → —
+- `a_wife_of_Solomon@1Ki.4.11` → —
+- `daughter1_of_Lot@Gen.19.37` → —
+- `daughter2_of_Lot@Gen.19.38` → —
+- `daughter_of_Annas@Jhn.18.13` → —
+- `daughter_of_Machir@1Ch.2.21` → —
+- `daughter_of_Meshullam@Neh.6.18` → —
+- `daughter_of_Pharaoh@1Ki.3.1` → —
+- `daughter_of_Pharaoh@Exo.2.5` → —
+- `daughter_of_Putiel@Exo.6.25` → —
+- `daughter_of_Sanballat@Neh.13.28` → —
+- `daughter_of_Shecaniah@Neh.6.18` → —
+- `father_of_Barnabas@Col.4.10` → —
+- `father_of_Conaniah@2Ch.31.12` → —
+- `father_of_Elizabeth@Luk.1.5` → —
+- `father_of_Eunice@2Ti.1.5` → —
+- `father_of_Hilkiah@Jer.32.7` → —
+- `father_of_Hodiah@1Ch.4.19` → —
+- `father_of_Lazarus@Luk.10.39` → —
+- `father_of_Mamre@Gen.14.13` → —
+- `father_of_Tahpenes@1Ki.11.19` → —
+- `father_of_Timothy@Act.16.1` → —
+- `huge_man@2Sa.21.20-1Ch` → —
+- `husband_of_Hammolecheth@1Ch.7.18` → —
+- `husband_of_Mary@Act.12.12` → —
+- `husband_of_Shimeath@2Ki.12.21` → —
+- `husband_of_Zeruiah@1Sa.26.6` → —
+- `motherInLaw_of_Peter@Mat.8.14-Luk` → —
+- `sister_of_Tahpenes@1Ki.11.19` → —
+- `son_of_Jashen@2Sa.23.32` → —
+- `son_of_Joiada@Neh.13.28` → —
+- `wife_of_Heli@Luk.1.5` → —
+
+## Sem nome nenhum
+

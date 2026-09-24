@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Árvore da Bíblia — quem gerou quem</title>
+  <meta name="description" content="Genealogia de todas as pessoas da Bíblia, com os nomes da NTLH: busca, árvore navegável, árvore de cada capítulo e linha do tempo das idades de Gênesis.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23231e18'/%3E%3Cpath d='M16 6v8M9 14h14M9 14v6M23 14v6M16 14v12' stroke='%23e9c7b8' stroke-width='2.4' fill='none' stroke-linecap='round'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,400..700;1,7..72,400..600&family=Source+Sans+3:ital,wght@0,400..700;1,400..600&display=swap">
+  <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+  <a class="pular" href="#ficha">Pular para a ficha</a>
+
+  <header class="topo">
+    <div class="marca">
+      <a href="#/pessoa/adao" class="marca-nome">Árvore da Bíblia</a>
+      <span class="marca-sub">quem gerou quem, de Gênesis a Apocalipse</span>
+    </div>
+
+    <div class="busca" id="busca-caixa">
+      <label class="sr" for="busca">Buscar uma pessoa</label>
+      <input id="busca" type="search" autocomplete="off" spellcheck="false"
+             placeholder="Buscar um nome — Matusalém, Lameque, Tiago…"
+             role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="resultados">
+      <ul id="resultados" class="resultados" role="listbox" hidden></ul>
+    </div>
+
+    <nav class="modos" aria-label="O que ver">
+      <a href="#/pessoa/adao" data-modo="pessoa">Árvore</a>
+      <a href="#/capitulo/genesis-5" data-modo="capitulo">Tô lendo…</a>
+      <a href="#/idades" data-modo="idades">Idades</a>
+    </nav>
+
+    <label class="traducao">
+      <span>Minha Bíblia</span>
+      <select id="traducao" aria-label="Tradução dos nomes">
+        <option value="NTLH">NTLH</option>
+        <option value="NAA">NAA</option>
+        <option value="ARA">ARA</option>
+        <option value="ARC">ARC</option>
+        <option value="NVI">NVI</option>
+      </select>
+    </label>
+  </header>
+
+  <main class="mesa" id="mesa" data-modo="pessoa" data-aba="palco">
+    <aside class="lado" id="lado" aria-label="Painel de navegação"></aside>
+
+    <section class="palco" id="palco" aria-label="Desenho">
+      <div class="palco-titulo" id="palco-titulo"></div>
+      <svg id="arvore" class="arvore" role="group" aria-label="Árvore genealógica"></svg>
+      <div class="tempo" id="tempo" hidden>
+        <div class="tempo-titulo" id="tempo-titulo"></div>
+        <svg id="svg-tempo" class="svg-tempo" role="group" aria-label="Linha do tempo das idades"></svg>
+      </div>
+      <div class="controles" id="controles">
+        <button type="button" data-zoom="mais" aria-label="Aproximar">+</button>
+        <button type="button" data-zoom="menos" aria-label="Afastar">−</button>
+        <button type="button" data-zoom="tudo" aria-label="Ver tudo">Ver tudo</button>
+      </div>
+      <p class="legenda" id="legenda">
+        <span><i class="l-filho"></i>pai → filho</span>
+        <span><i class="l-conj"></i>casamento</span>
+        <span><i class="l-duvida"></i>ligação incerta</span>
+        <span><i class="l-ante"></i>antepassado, não pai direto</span>
+      </p>
+      <div class="estado" id="estado" role="status">Carregando as 3.130 pessoas…</div>
+    </section>
+
+    <article class="ficha" id="ficha" tabindex="-1" aria-live="polite"></article>
+  </main>
+
+  <nav class="abas" id="abas" aria-label="Painéis">
+    <button type="button" data-aba="lado">Lista</button>
+    <button type="button" data-aba="palco" aria-current="true">Árvore</button>
+    <button type="button" data-aba="ficha">Ficha</button>
+  </nav>
+
+  <footer class="rodape">
+    <p>Pessoas e parentescos: <a href="https://github.com/STEPBible/STEPBible-Data" target="_blank" rel="noopener">TIPNR — STEPBible.org</a>, com base em trabalho da Tyndale House, Cambridge (CC BY 4.0). Nomes em português tirados das traduções NTLH, NAA, ARA, ARC e NVI; nenhum versículo é reproduzido aqui — cada referência abre o texto no bible.com.</p>
+    <p>As descrições curtas foram traduzidas do inglês por IA. Onde os estudiosos divergem (as genealogias de Jesus em Mateus e Lucas, partes de Crônicas), a árvore segue a leitura do TIPNR e marca a ligação como incerta.</p>
+  </footer>
+
+  <script type="module" src="js/principal.js"></script>
+</body>
+</html>

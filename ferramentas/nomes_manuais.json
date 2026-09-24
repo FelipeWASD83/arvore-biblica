@@ -1,0 +1,900 @@
+{
+  "_leia": "Nomes que a comparacao de grafia nao acha sozinha. 'dicas': nome em ingles -> grafias em portugues que valem como casamento perfeito no versiculo (o voto entre versiculos continua decidindo). 'fixos': chave do TIPNR -> nome forcado, usado quando nenhuma traducao traz o nome (ou traz errado). Quem usa: construir_dados.py.",
+  "dicas": {
+    "James": [
+      "Tiago"
+    ],
+    "Jude": [
+      "Judas"
+    ],
+    "Judas": [
+      "Judas"
+    ],
+    "Mark": [
+      "Marcos"
+    ],
+    "Luke": [
+      "Lucas"
+    ],
+    "Stephen": [
+      "Estêvão"
+    ],
+    "Philip": [
+      "Filipe"
+    ],
+    "Matthew": [
+      "Mateus"
+    ],
+    "Thomas": [
+      "Tomé"
+    ],
+    "Andrew": [
+      "André"
+    ],
+    "Bartholomew": [
+      "Bartolomeu"
+    ],
+    "Peter": [
+      "Pedro"
+    ],
+    "Paul": [
+      "Paulo"
+    ],
+    "Timothy": [
+      "Timóteo"
+    ],
+    "Titus": [
+      "Tito"
+    ],
+    "Barnabas": [
+      "Barnabé"
+    ],
+    "Apollos": [
+      "Apolo"
+    ],
+    "Herod": [
+      "Herodes"
+    ],
+    "Pilate": [
+      "Pilatos"
+    ],
+    "Caesar": [
+      "César"
+    ],
+    "Augustus": [
+      "Augusto"
+    ],
+    "Tiberius": [
+      "Tibério"
+    ],
+    "Claudius": [
+      "Cláudio"
+    ],
+    "Felix": [
+      "Félix"
+    ],
+    "Festus": [
+      "Festo"
+    ],
+    "Agrippa": [
+      "Agripa"
+    ],
+    "Elijah": [
+      "Elias"
+    ],
+    "Elias": [
+      "Elias"
+    ],
+    "Elisha": [
+      "Eliseu"
+    ],
+    "Eliseus": [
+      "Eliseu"
+    ],
+    "Isaiah": [
+      "Isaías"
+    ],
+    "Esaias": [
+      "Isaías"
+    ],
+    "Jeremiah": [
+      "Jeremias"
+    ],
+    "Jeremy": [
+      "Jeremias"
+    ],
+    "Ezekiel": [
+      "Ezequiel"
+    ],
+    "Hosea": [
+      "Oseias",
+      "Oséias"
+    ],
+    "Obadiah": [
+      "Obadias"
+    ],
+    "Jonah": [
+      "Jonas"
+    ],
+    "Jonas": [
+      "Jonas"
+    ],
+    "Micah": [
+      "Miqueias",
+      "Miquéias"
+    ],
+    "Nahum": [
+      "Naum"
+    ],
+    "Habakkuk": [
+      "Habacuque"
+    ],
+    "Zephaniah": [
+      "Sofonias"
+    ],
+    "Haggai": [
+      "Ageu"
+    ],
+    "Zechariah": [
+      "Zacarias"
+    ],
+    "Zacharias": [
+      "Zacarias"
+    ],
+    "Malachi": [
+      "Malaquias"
+    ],
+    "Solomon": [
+      "Salomão"
+    ],
+    "Moses": [
+      "Moisés"
+    ],
+    "Aaron": [
+      "Arão"
+    ],
+    "Joshua": [
+      "Josué"
+    ],
+    "Eve": [
+      "Eva"
+    ],
+    "Noah": [
+      "Noé"
+    ],
+    "Noe": [
+      "Noé"
+    ],
+    "Shem": [
+      "Sem"
+    ],
+    "Japheth": [
+      "Jafé"
+    ],
+    "Ham": [
+      "Cam"
+    ],
+    "Isaac": [
+      "Isaque"
+    ],
+    "Jacob": [
+      "Jacó"
+    ],
+    "Israel": [
+      "Israel"
+    ],
+    "Rebekah": [
+      "Rebeca"
+    ],
+    "Rachel": [
+      "Raquel"
+    ],
+    "Leah": [
+      "Lia"
+    ],
+    "Judah": [
+      "Judá"
+    ],
+    "Reuben": [
+      "Rúben",
+      "Rubem"
+    ],
+    "Simeon": [
+      "Simeão"
+    ],
+    "Joseph": [
+      "José"
+    ],
+    "Mary": [
+      "Maria"
+    ],
+    "Elizabeth": [
+      "Isabel"
+    ],
+    "Elisabeth": [
+      "Isabel"
+    ],
+    "Anna": [
+      "Ana"
+    ],
+    "Hannah": [
+      "Ana"
+    ],
+    "Martha": [
+      "Marta"
+    ],
+    "Lazarus": [
+      "Lázaro"
+    ],
+    "Nicodemus": [
+      "Nicodemos"
+    ],
+    "Joanna": [
+      "Joana"
+    ],
+    "Susanna": [
+      "Susana"
+    ],
+    "Salome": [
+      "Salomé"
+    ],
+    "Mary_Magdalene": [
+      "Maria"
+    ],
+    "Saul": [
+      "Saul",
+      "Saulo"
+    ],
+    "Sarah": [
+      "Sara"
+    ],
+    "Sarai": [
+      "Sarai"
+    ],
+    "Abram": [
+      "Abrão"
+    ],
+    "Abraham": [
+      "Abraão"
+    ],
+    "Hagar": [
+      "Agar",
+      "Hagar"
+    ],
+    "Ishmael": [
+      "Ismael"
+    ],
+    "Esau": [
+      "Esaú"
+    ],
+    "Lot": [
+      "Ló"
+    ],
+    "Laban": [
+      "Labão"
+    ],
+    "Terah": [
+      "Terá"
+    ],
+    "Nahor": [
+      "Naor"
+    ],
+    "Cain": [
+      "Caim"
+    ],
+    "Abel": [
+      "Abel"
+    ],
+    "Seth": [
+      "Sete"
+    ],
+    "Enosh": [
+      "Enos"
+    ],
+    "Methuselah": [
+      "Metusalém",
+      "Matusalém"
+    ],
+    "Eber": [
+      "Héber",
+      "Éber"
+    ],
+    "Heber": [
+      "Héber"
+    ],
+    "Peleg": [
+      "Pelegue",
+      "Faleque"
+    ],
+    "Serug": [
+      "Serugue"
+    ],
+    "Arphaxad": [
+      "Arfaxade"
+    ],
+    "Shelah": [
+      "Selá",
+      "Salá",
+      "Sela"
+    ],
+    "Nimrod": [
+      "Ninrode"
+    ],
+    "Canaan": [
+      "Canaã"
+    ],
+    "Cush": [
+      "Cuxe",
+      "Cuche"
+    ],
+    "Egypt": [
+      "Egito"
+    ],
+    "Mizraim": [
+      "Egito",
+      "Mizraim"
+    ],
+    "Dinah": [
+      "Diná"
+    ],
+    "Tamar": [
+      "Tamar"
+    ],
+    "Perez": [
+      "Perez",
+      "Farés",
+      "Peres"
+    ],
+    "Boaz": [
+      "Boaz",
+      "Booz"
+    ],
+    "Ruth": [
+      "Rute"
+    ],
+    "Naomi": [
+      "Noemi"
+    ],
+    "Jesse": [
+      "Jessé"
+    ],
+    "David": [
+      "Davi"
+    ],
+    "Bathsheba": [
+      "Bate-Seba"
+    ],
+    "Absalom": [
+      "Absalão"
+    ],
+    "Jonathan": [
+      "Jônatas"
+    ],
+    "Rehoboam": [
+      "Roboão"
+    ],
+    "Jeroboam": [
+      "Jeroboão"
+    ],
+    "Abijah": [
+      "Abias"
+    ],
+    "Abijam": [
+      "Abias",
+      "Abião"
+    ],
+    "Asa": [
+      "Asa"
+    ],
+    "Jehoshaphat": [
+      "Josafá"
+    ],
+    "Jehoram": [
+      "Jeorão"
+    ],
+    "Joram": [
+      "Jorão"
+    ],
+    "Ahaziah": [
+      "Acazias"
+    ],
+    "Athaliah": [
+      "Atalia"
+    ],
+    "Joash": [
+      "Joás"
+    ],
+    "Jehoash": [
+      "Jeoás"
+    ],
+    "Amaziah": [
+      "Amazias"
+    ],
+    "Uzziah": [
+      "Uzias"
+    ],
+    "Azariah": [
+      "Azarias"
+    ],
+    "Jotham": [
+      "Jotão"
+    ],
+    "Ahaz": [
+      "Acaz"
+    ],
+    "Hezekiah": [
+      "Ezequias"
+    ],
+    "Manasseh": [
+      "Manassés"
+    ],
+    "Amon": [
+      "Amom"
+    ],
+    "Josiah": [
+      "Josias"
+    ],
+    "Jehoahaz": [
+      "Jeoacaz"
+    ],
+    "Jehoiakim": [
+      "Jeoaquim"
+    ],
+    "Jehoiachin": [
+      "Joaquim"
+    ],
+    "Jeconiah": [
+      "Jeconias"
+    ],
+    "Zedekiah": [
+      "Zedequias"
+    ],
+    "Ahab": [
+      "Acabe"
+    ],
+    "Jezebel": [
+      "Jezabel"
+    ],
+    "Jehu": [
+      "Jeú"
+    ],
+    "Omri": [
+      "Onri"
+    ],
+    "Nebuchadnezzar": [
+      "Nabucodonosor"
+    ],
+    "Cyrus": [
+      "Ciro"
+    ],
+    "Darius": [
+      "Dario"
+    ],
+    "Ahasuerus": [
+      "Assuero",
+      "Xerxes"
+    ],
+    "Xerxes": [
+      "Xerxes",
+      "Assuero"
+    ],
+    "Artaxerxes": [
+      "Artaxerxes"
+    ],
+    "Esther": [
+      "Ester"
+    ],
+    "Mordecai": [
+      "Mordecai"
+    ],
+    "Haman": [
+      "Hamã"
+    ],
+    "Ezra": [
+      "Esdras"
+    ],
+    "Nehemiah": [
+      "Neemias"
+    ],
+    "Zerubbabel": [
+      "Zorobabel"
+    ],
+    "Daniel": [
+      "Daniel"
+    ],
+    "Samuel": [
+      "Samuel"
+    ],
+    "Eli": [
+      "Eli"
+    ],
+    "Samson": [
+      "Sansão"
+    ],
+    "Gideon": [
+      "Gideão"
+    ],
+    "Deborah": [
+      "Débora"
+    ],
+    "Miriam": [
+      "Miriã"
+    ],
+    "Jochebed": [
+      "Joquebede"
+    ],
+    "Amram": [
+      "Anrão"
+    ],
+    "Kohath": [
+      "Coate"
+    ],
+    "Gershon": [
+      "Gérson"
+    ],
+    "Merari": [
+      "Merari"
+    ],
+    "Levi": [
+      "Levi"
+    ],
+    "Ephraim": [
+      "Efraim"
+    ],
+    "Benjamin": [
+      "Benjamim"
+    ],
+    "Naphtali": [
+      "Naftali"
+    ],
+    "Zebulun": [
+      "Zebulom"
+    ],
+    "Issachar": [
+      "Issacar"
+    ],
+    "Asher": [
+      "Aser"
+    ],
+    "Gad": [
+      "Gade"
+    ],
+    "Dan": [
+      "Dã"
+    ],
+    "Caleb": [
+      "Calebe"
+    ],
+    "Nun": [
+      "Num"
+    ],
+    "Jesus": [
+      "Jesus"
+    ],
+    "Christ": [
+      "Cristo"
+    ],
+    "John": [
+      "João"
+    ],
+    "Simon": [
+      "Simão"
+    ],
+    "Cephas": [
+      "Cefas"
+    ],
+    "Silas": [
+      "Silas"
+    ],
+    "Silvanus": [
+      "Silvano"
+    ],
+    "Priscilla": [
+      "Priscila"
+    ],
+    "Prisca": [
+      "Priscila",
+      "Prisca"
+    ],
+    "Aquila": [
+      "Áquila"
+    ],
+    "Lydia": [
+      "Lídia"
+    ],
+    "Cornelius": [
+      "Cornélio"
+    ],
+    "Zacchaeus": [
+      "Zaqueu"
+    ],
+    "Matthias": [
+      "Matias"
+    ],
+    "Thaddaeus": [
+      "Tadeu"
+    ],
+    "Alphaeus": [
+      "Alfeu"
+    ],
+    "Zebedee": [
+      "Zebedeu"
+    ],
+    "Joses": [
+      "José"
+    ],
+    "Heli": [
+      "Eli"
+    ],
+    "Eunice": [
+      "Eunice"
+    ],
+    "Lois": [
+      "Loide"
+    ],
+    "Onesimus": [
+      "Onésimo"
+    ],
+    "Philemon": [
+      "Filemom"
+    ],
+    "Tychicus": [
+      "Tíquico"
+    ],
+    "Epaphras": [
+      "Epafras"
+    ],
+    "Caiaphas": [
+      "Caifás"
+    ],
+    "Annas": [
+      "Anás"
+    ],
+    "Gamaliel": [
+      "Gamaliel"
+    ],
+    "Ananias": [
+      "Ananias"
+    ],
+    "Sapphira": [
+      "Safira"
+    ],
+    "Herodias": [
+      "Herodias"
+    ],
+    "Barabbas": [
+      "Barrabás"
+    ],
+    "Pharaoh": [
+      "Faraó"
+    ],
+    "Melchizedek": [
+      "Melquisedeque"
+    ],
+    "Job": [
+      "Jó"
+    ],
+    "Enoch": [
+      "Enoque"
+    ],
+    "Lamech": [
+      "Lameque"
+    ],
+    "Jared": [
+      "Jarede"
+    ],
+    "Kenan": [
+      "Cainã",
+      "Quenã"
+    ],
+    "Cainan": [
+      "Cainã"
+    ],
+    "Mahalalel": [
+      "Maalalel"
+    ],
+    "Tubal-cain": [
+      "Tubalcaim",
+      "Tubal-Caim"
+    ],
+    "Adah": [
+      "Ada"
+    ],
+    "Zillah": [
+      "Zila"
+    ],
+    "Naamah": [
+      "Naamá"
+    ],
+    "Keturah": [
+      "Quetura"
+    ],
+    "Bilhah": [
+      "Bila"
+    ],
+    "Zilpah": [
+      "Zilpa"
+    ],
+    "Asenath": [
+      "Asenate"
+    ],
+    "Zipporah": [
+      "Zípora"
+    ],
+    "Jethro": [
+      "Jetro"
+    ],
+    "Hur": [
+      "Hur"
+    ],
+    "Balaam": [
+      "Balaão"
+    ],
+    "Rahab": [
+      "Raabe"
+    ],
+    "Achan": [
+      "Acã"
+    ],
+    "Uriah": [
+      "Urias"
+    ],
+    "Nathan": [
+      "Natã"
+    ],
+    "Abigail": [
+      "Abigail"
+    ],
+    "Michal": [
+      "Mical"
+    ],
+    "Joab": [
+      "Joabe"
+    ],
+    "Abner": [
+      "Abner"
+    ],
+    "Amnon": [
+      "Amnom"
+    ],
+    "Adonijah": [
+      "Adonias"
+    ],
+    "Mephibosheth": [
+      "Mefibosete"
+    ],
+    "Ish-bosheth": [
+      "Is-Bosete",
+      "Isbosete"
+    ],
+    "Goliath": [
+      "Golias"
+    ],
+    "Hivites": [
+      "heveus",
+      "Heveus"
+    ],
+    "Caphtorim": [
+      "caftorins",
+      "Caftorins",
+      "caftoreus"
+    ],
+    "Scythians": [
+      "citas",
+      "cita"
+    ],
+    "Scythian": [
+      "citas",
+      "cita"
+    ],
+    "Rabshakeh": [
+      "Rabsaqué"
+    ],
+    "Hittites": [
+      "heteus",
+      "hititas"
+    ],
+    "Canaanites": [
+      "cananeus"
+    ],
+    "Philistines": [
+      "filisteus"
+    ],
+    "Hivite": [
+      "heveus",
+      "heveu"
+    ],
+    "Philistine": [
+      "filisteus",
+      "filisteu"
+    ]
+  },
+  "fixos": {
+    "_leia": "chave do TIPNR -> {'*': nome em todas as traducoes (null = sem nome), 'NTLH': so nessa, 'outros': outros nomes, 'an': descricao para quem nao tem nome}",
+    "Israel@Gen.25.26-Rev": {
+      "*": "Jacó",
+      "outros": [
+        "Israel",
+        "Jesurum"
+      ]
+    },
+    "Judah@Gen.29.35-Rev": {
+      "*": "Judá",
+      "outros": []
+    },
+    "Barabbas@Mat.27.16-Jhn": {
+      "outros": []
+    },
+    "Abinadab@1Ki.4.11": {
+      "*": "Ben-Abinadabe"
+    },
+    "Addar@1Ch.8.3": {
+      "*": "Adar"
+    },
+    "Ahi@1Ch.5.15": {
+      "*": "Aí"
+    },
+    "Ahi@1Ch.7.34": {
+      "*": "Aí"
+    },
+    "Amminadib@Sng.6.12": {
+      "*": "Aminadibe"
+    },
+    "Aramitess@1Ch.7.14": {
+      "*": "concubina síria"
+    },
+    "Cush@Psa.7.1": {
+      "*": "Cuxe"
+    },
+    "Deker@1Ki.4.9": {
+      "*": "Ben-Dequer"
+    },
+    "Hesed@1Ki.4.10": {
+      "*": "Ben-Hesede"
+    },
+    "Hur@1Ki.4.8": {
+      "*": "Ben-Hur"
+    },
+    "Irijah@Jer.37.13-": {
+      "*": "Jerias"
+    },
+    "Melzar@Dan.1.11-": {
+      "*": "Melzar"
+    },
+    "Quartus@Rom.16.23": {
+      "*": "Quarto"
+    },
+    "Salome@Mat.14.6": {
+      "*": "filha de Herodias",
+      "outros": [
+        "Salomé"
+      ]
+    },
+    "Hermas@Rom.16.14b": {
+      "*": "Hermas"
+    },
+    "Philistine@Gen.10.14-1Ch": {
+      "*": "Filisteus"
+    },
+    "Dinaites@Ezr.4.9": {
+      "*": "Dinaítas"
+    },
+    "Hivites@Gen.10.17-2Ch": {
+      "*": "Heveus"
+    },
+    "daughter1_of_Lot@Gen.19.37": {
+      "*": null
+    },
+    "daughter2_of_Lot@Gen.19.38": {
+      "*": null
+    },
+    "Jerusalem_wives@2Sa.5.13": {
+      "*": null,
+      "an": "mulheres de Davi em Jerusalém",
+      "outros": []
+    },
+    "Jehudijah@1Ch.4.18": {
+      "*": "Jeudia"
+    }
+  }
+}
