@@ -32,3 +32,9 @@ Pessoas e parentescos: TIPNR, do STEPBible.org (Tyndale House, Cambridge),
 CC BY 4.0. Nomes em português tirados das próprias traduções. Idades digitadas
 à mão com o versículo. Detalhes em `CLAUDE.md` e
 `docs/pesquisa-fonte-dos-dados.md`.
+
+## Licença
+
+Código sob a licença MIT (arquivo `LICENSE`).
+
+Os dados de pessoas e parentescos vêm do TIPNR (STEPBible.org, Tyndale House), CC BY 4.0, e mantêm a licença deles.
