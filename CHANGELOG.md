@@ -2,6 +2,11 @@
 
 A versão mais nova fica em cima. Ela mora só aqui: o projeto não mostra número em lugar nenhum.
 
+## 1.0.1 (17/10/2026)
+
+### Novo
+- **Modo embutido** (`index.html?embutido`), para abrir a árvore dentro de outro app: a página deixa de rolar, a árvore toma a altura da janela e o rodapé vira uma faixa fina. Aberta sozinha, nada muda.
+
 ## 1.0.0 (14/10/2026)
 
 Primeira versão com número. O que veio antes está no histórico do git; os marcos principais:

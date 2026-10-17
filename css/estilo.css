@@ -613,3 +613,14 @@ button, select, input { font: inherit; color: inherit; }
 @media (prefers-reduced-motion: reduce) {
   * { transition: none !important; }
 }
+
+/* ---------------------------------------------------------------- modo embutido
+   Aberta dentro de outro app (iframe com ?embutido, como no Oratório), a página não rola: a mesa toma a altura
+   da janela, o rodapé vira uma faixa fina e só a lista e a ficha rolam por dentro. Sem isso o iframe tinha
+   uma barra de rolagem própria além das duas de dentro. Só no desktop em pé ou deitado largo; no celular e no
+   monitor em pé valem as regras de sempre. */
+@media (min-width: 761px) and (orientation: landscape) {
+  .embutido body { height: 100vh; overflow: hidden; }
+  .embutido .mesa { flex: 1 1 auto; height: auto; min-height: 0; }
+  .embutido .rodape { flex: none; padding: var(--e-2) var(--e-5); font-size: 0.72rem; line-height: 1.35; gap: 0 var(--e-5); grid-template-columns: 1fr 1fr; }
+}
